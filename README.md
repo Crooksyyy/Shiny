@@ -4,16 +4,17 @@
 
 This repository provides a foundation for analyzing Auschwitz death certificates data through an interactive Shiny web application. Users can explore and visualize the number of people murdered based on different categories such as birthplace, residence, and religion.
 
+The app is available at this link: https://cub2dd-gavin-crooks.shinyapps.io/Shiny/ 
+
 ## File Structure
 
 The repo is structured as follows:
+- `app` : Contains the code to generate shiny app
+- `Auschwitz_Death_Raw_Data.csv`: Raw dataset containing information about individuals who died in Auschwitz.
+- `README.md`: This readme file providing an overview of the repository and instructions for usage
+- `rsconnect` : Contains files required to publish shiny app
+- `Themes` : A breif paper about the finidings of the app
 
-- `app`: Contains the Shiny web application files.
-  - `ui.R`: User interface definition.
-  - `server.R`: Server-side logic.
-- `data`: Contains the raw data used in the analysis.
-  - `Auschwitz_Death_Raw_Data.csv`: Raw dataset containing information about individuals who died in Auschwitz.
-- `README.md`: This readme file providing an overview of the repository and instructions for usage.
   
 ## Usage
 
